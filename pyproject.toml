@@ -13,7 +13,7 @@ authors = [
 maintainers = [
     { name = 'Sebastian Stammler', email = 'sebastian.stammler@gmail.com' },
 ]
-#license = { file = 'LICENSE' }
+license = { file = 'LICENSE' }
 dependencies = ['numpy']
 
 [project.urls]
