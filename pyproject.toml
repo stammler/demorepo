@@ -1,0 +1,20 @@
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python']
+
+[project]
+name = 'calculator'
+version = '1.0.0'
+description = 'Simple calculator as demo for Sphinx and unit tests.'
+readme = { file = 'README.md', content-type = 'text/markdown' }
+authors = [
+    { name = 'Sebastian Stammler', email = 'sebastian.stammler@gmail.com' },
+]
+maintainers = [
+    { name = 'Sebastian Stammler', email = 'sebastian.stammler@gmail.com' },
+]
+#license = { file = 'LICENSE' }
+dependencies = ['numpy']
+
+[project.urls]
+Repository = 'https://github.com/stammler/sphinx-demo/'
