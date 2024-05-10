@@ -1,0 +1,5 @@
+nbsphinx
+pandoc
+sphinx
+sphinx-rtd-theme
+sphinx-automodapi
